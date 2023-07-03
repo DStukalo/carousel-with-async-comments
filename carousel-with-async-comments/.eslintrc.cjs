@@ -30,18 +30,7 @@ module.exports = {
 		},
 	},
 	rules: {
-		'comma-dangle': [
-			'error',
-			{
-				objects: 'never',
-				arrays: 'never',
-				functions: 'never',
-				typeLiterals: 'ignore',
-				imports: 'never',
-				exports: 'never',
-			},
-		],
-		// 'comma-dangle': 0,
+		// 'comma-dangle': 'off',
 		// '@typescript-eslint/comma-dangle': 0,
 		indent: [2, 'tab'],
 		'react/jsx-indent': [
@@ -51,7 +40,6 @@ module.exports = {
 		],
 		'react/jsx-indent-props': [2, 'tab'],
 		'no-tabs': 0,
-
 		'linebreak-style': [2, 'unix'],
 		quotes: [2, 'single'],
 		semi: [2, 'always'],

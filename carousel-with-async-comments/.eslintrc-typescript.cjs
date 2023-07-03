@@ -43,18 +43,6 @@ module.exports = {
 		'comma-spacing': 'off',
 		'@typescript-eslint/comma-spacing': 'warn',
 		// 'trailing-comma': 0,
-		'trailing-comma': [
-			2,
-			{
-				singleline: 'never',
-				multiline: {
-					objects: 'never',
-					arrays: 'always',
-					functions: 'never',
-					typeLiterals: 'ignore',
-				},
-			},
-		],
 		indent: 'off',
 		'@typescript-eslint/indent': ['error', 'tab'],
 		'keyword-spacing': 'off',
